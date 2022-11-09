@@ -36,6 +36,7 @@ Route::get('/', function () {
 });
 
 Route::resource('/event', EventController::class);
+Route::PUT('event/{management}', [ EventController::class, 'event'])->name('event.myevent');
 Route::get('myevent', [ EventController::class, 'myevent'])->name('event.myevent');
 Route::resource('/comment', CommentController::class);
 Route::resource('/newsletter', NewsletterController::class);

@@ -155,7 +155,7 @@
                         </div>
 
                         <div class="card-body p-3">
-                            <form action="{{ route("comment.edit", $event) }}" method="post"  >
+                            <form action="{{ route('comment.edit', $event) }}" method="post"  >
                                 @csrf
                                 {{ method_field("GET") }}
                                 

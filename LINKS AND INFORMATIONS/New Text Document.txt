@@ -1,0 +1,35 @@
+EVENTPROM
+
+===========================================
+CATEGORY AND TAGS
+===========================================
+
+DIVERTISSEMNTS
+Music, Concerts, Karaokee), Film, Barbecue, Tourism, Festival, Party, Game, 
+Comedy, Shopping, Dance, Drinks, Ceremony, promenade(excurtion), sport, Food and restaurents
+
+SOCIAL
+Rencontres, Culture, Arts, Religion, Fashion, Charity,
+
+INFORMATIONAL
+Formation, Conference, training(professional, academic), Job opportuinity, graduation, defenses, technology, 
+
+MARIAGE
+save the date, bride shower, 
+
+BIRTHDAYS
+
+DEUIL
+
+ 
+=============================================
+EVENT
+=============================================
+commentaire, like, partage, 
+Category, tag
+poster, location(online(url link), physical address), event url
+prix(gratuit)
+After inserting an event don't forget to ask the user to share it
+
+
+

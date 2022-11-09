@@ -17,6 +17,7 @@ class IsAdmin
     public function handle(Request $request, Closure $next)
     {
 
+        //Check if the user is authenticated
         if(Auth()->check())
         {
             return $next($request); 
@@ -25,7 +26,7 @@ class IsAdmin
         }
 
 
-
+        //Check if the user is admin
         if(Auth()->user()->admin == 1){
             return $next($request);
         }else{

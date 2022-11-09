@@ -107,7 +107,7 @@
 
           @auth  
             <li class="nav-item">
-              <form method="post" action="{{ route('logout')}}">
+              <form method="post" action="{{ route('logout') }}">
                 @csrf
                 
                 <button class="nav-link" style="border: none">
